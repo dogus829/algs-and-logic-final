@@ -8,7 +8,6 @@ return the entire array with the converted strings
 
 
 // COULDNT FIND A SOLUTION THAT WORKS.
-const snakeCaseArr = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
 
 
 console.log((snakeCaseArr(['Coding Is Fun']) === ['coding_is_fun']) ? "Test 1: Passing" : "Test 1: Failing");
